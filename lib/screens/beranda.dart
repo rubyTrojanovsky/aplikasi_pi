@@ -1,4 +1,4 @@
-import 'package:aplikasi_pi/controllers/app_controller.dart';
+import 'package:aplikasi_pi/screens/about_dyta/about_dyta_view.dart';
 import 'package:aplikasi_pi/screens/detail_rujak.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -8,58 +8,66 @@ class Beranda extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppController link = Get.put(AppController());
     Size size = MediaQuery.of(context).size;
-    return SafeArea(
-      child: Scaffold(
-        body: SingleChildScrollView(
-          child: Stack(
-            clipBehavior: Clip.none,
-            children: [
-              Container(
-                height: size.height * 0.25,
-                decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.red.shade800,
-                          Colors.orange,
-                          Colors.yellow.shade400
-                        ]),
-                    border: Border.all(
-                      width: 2,
-                      color: Colors.black,
-                    ),
-                    borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(20),
-                        bottomRight: Radius.circular(20))),
-              ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 30, 16, 16),
-                child: Center(
-                    child: Text(
+    return Scaffold(
+      body: Container(
+        height: size.height,
+        width: size.width,
+        child: Stack(
+          clipBehavior: Clip.none,
+          children: <Widget>[
+            //GRADIENT ATAS APP
+            Container(
+              height: size.height * 0.25,
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        Colors.red.shade800,
+                        Colors.orange,
+                        Colors.yellow.shade400
+                      ]),
+                  border: Border.all(
+                    width: 2,
+                    color: Colors.black,
+                  ),
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(20),
+                      bottomRight: Radius.circular(20))),
+            ),
+
+            //JUDUL APP
+            Align(
+              alignment: Alignment.topCenter,
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 50, 16, 16),
+                child: Text(
                   "Aplikasi Produk Dyta",
                   style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.white,
-                    shadows: [
-                      Shadow(
-                        offset: Offset(1.0, 1.0),
-                        blurRadius: 3.0,
-                        color: Color.fromARGB(255, 0, 0, 0),
-                      ),
-                      Shadow(
-                        offset: Offset(1.0, 1.0),
-                        blurRadius: 8.0,
-                        color: Color.fromARGB(125, 0, 0, 255),
-                      ),
-                    ],
+                fontSize: 30,
+                color: Colors.white,
+                shadows: [
+                  Shadow(
+                    offset: Offset(1.0, 1.0),
+                    blurRadius: 3.0,
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
-                )),
+                  Shadow(
+                    offset: Offset(1.0, 1.0),
+                    blurRadius: 8.0,
+                    color: Color.fromARGB(125, 0, 0, 255),
+                  ),
+                ],
+                  ),
+                ),
               ),
-              Positioned(
-                top: size.height * 0.1,
+            ),
+
+            //MENUS
+            Positioned(
+              top: size.height * 0.1,
+              child: Container(
                 child: Column(
                   children: [
                     Container(
@@ -73,6 +81,7 @@ class Beranda extends StatelessWidget {
                                 Get.to(() => DetailRujak(),
                                     transition: Transition.rightToLeft,
                                     duration: Duration(milliseconds: 400));
+                                print('tap');
                               },
                               child: Container(
                                 height: 200,
@@ -146,7 +155,11 @@ class Beranda extends StatelessWidget {
                             ),
 
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Get.to(() => AboutDyta(),
+                                    transition: Transition.rightToLeft,
+                                    duration: Duration(milliseconds: 400));
+                              },
                               child: Container(
                                 height: 70,
                                 width: size.width * 0.875,
@@ -240,31 +253,10 @@ class Beranda extends StatelessWidget {
                   ],
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
   }
 }
-
-// openTokped() async {
-//   var linkTokped = "https://www.tokopedia.com/dytayasmin/dyta-rujak-serut";
-//   if (await canLaunch(linkTokped)) {
-//     await launch(linkTokped);
-//   }
-//   else {
-//     Get.snackbar('Gagal menuju halaman','Cek kembali koneksi internet');
-//   }
-// }
-
-// openWA() async {
-//   var noHP = "+6281297987125";
-//   var linkWA = "https://wa.me/"+noHP;
-//   if (await canLaunch(linkWA)) {
-//     await launch(linkWA);
-//   }
-//   else {
-//     Get.snackbar('Gagal menuju halaman','Cek kembali koneksi internet');
-//   }
-// }
