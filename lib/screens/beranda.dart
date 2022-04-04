@@ -1,4 +1,6 @@
+import 'package:aplikasi_pi/screens/about_app.dart';
 import 'package:aplikasi_pi/screens/about_dyta/about_dyta_view.dart';
+import 'package:aplikasi_pi/screens/cara_order.dart';
 import 'package:aplikasi_pi/screens/detail_rujak.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -109,7 +111,7 @@ class Beranda extends StatelessWidget {
                                             fontSize: 26),
                                       ),
                                       Text(
-                                        'Dapatkan informasi mengenai produk bestseller DTYA disini',
+                                        'Ingin lebih tau tentang produk unggulan DYTA? yuk cek disini',
                                         style: TextStyle(
                                             color: Colors.white, fontSize: 18),
                                       )
@@ -124,7 +126,12 @@ class Beranda extends StatelessWidget {
                             ),
 
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Get.to(() => CaraOrder(),
+                                    transition: Transition.rightToLeft,
+                                    duration: Duration(milliseconds: 400));
+                                print('tap');
+                              },
                               child: Container(
                                 height: 70,
                                 width: size.width * 0.875,
@@ -190,7 +197,11 @@ class Beranda extends StatelessWidget {
                             ),
 
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Get.to(() => AboutApp(),
+                                    transition: Transition.rightToLeft,
+                                    duration: Duration(milliseconds: 400));
+                              },
                               child: Container(
                                 height: 70,
                                 width: size.width * 0.875,
@@ -216,36 +227,7 @@ class Beranda extends StatelessWidget {
                               ),
                             ),
 
-                            // ElevatedButton(
-                            //   onPressed: () => link.openTokped(),
-                            //   child: Row(children: [
-                            //     Padding(
-                            //       padding: const EdgeInsets.all(12.0),
-                            //       child: SizedBox(
-                            //         height: 35,
-                            //         width: 35,
-                            //         child: Image.asset('assets/images/tokopedia.png')),
-                            //     ),
-                            //     Text("Pesan Sekarang"),
-                            //   ]
-                            //   ),
-                            // ),
-                            // SizedBox(height: 20,),
-
-                            // ElevatedButton(
-                            //   onPressed: () => link.openWA(),
-                            //   child: Row(children: [
-                            //     Padding(
-                            //       padding: const EdgeInsets.all(12.0),
-                            //       child: SizedBox(
-                            //         height: 35,
-                            //         width: 35,
-                            //         child: Image.asset('assets/images/whatsapp.png')),
-                            //     ),
-                            //     Text("Hubungi kami"),
-                            //   ]
-                            //   ),
-                            // ),
+                            
                           ],
                         ),
                       ),

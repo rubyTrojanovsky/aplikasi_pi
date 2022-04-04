@@ -6,13 +6,19 @@ class DetailRujak extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Column(
-          children: [
-            Text('halaman detail rujak')
-          ],
-        ),
+    return Scaffold(
+      body: Column(
+        children: [
+          Container(
+                height: 250,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/dyta_logo.jpeg'),
+                          fit: BoxFit.cover
+                  ),
+                ),
+              ),
+        ],
       ),
     );
   }
