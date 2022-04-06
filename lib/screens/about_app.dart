@@ -1,27 +1,56 @@
 import 'package:flutter/material.dart';
 
 class AboutApp extends StatelessWidget {
-  const AboutApp({ Key? key }) : super(key: key);
+  const AboutApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 20),
         child: Container(
           child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Tentang Aplikasi'),
-                Text('Aplikasi ini dibuat dalam rangka memenuhi tugas Penulisan Ilmiah Universitas Gunadarma dan membantu promosi produk DYTA',
-                style: TextStyle(),
-                textAlign: TextAlign.center,),
-                CircleAvatar(
-                  backgroundImage: AssetImage('assets/images/ruby.jpg'),
-                  radius: 60,
-                )
-              ]
-            ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.orange,
+                    radius: 63,
+                    child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/ruby.jpg'),
+                      radius: 60,
+                    ),
+                  ),
+                  SizedBox(width: 20,),
+                  CircleAvatar(
+                    backgroundColor: Colors.orange,
+                    radius: 63,
+                    child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/ug.jpg'),
+                      radius: 60,
+                      backgroundColor: Colors.transparent,
+                    ),
+                  )
+                ],
+              ),
+              SizedBox(height: 80,),
+
+              Text(
+                'Aplikasi ini dikembangkan dalam rangka memenuhi tugas Penulisan Ilmiah Universitas'
+                'Gunadarma dan membantu promosi produk DYTA \n\n'
+                'Harapan kedepannya aplikasi ini berhasil mempromosikan produk yang dijual oleh DYTA\n\n'
+                
+                'Dibuat oleh:\n'
+                'Muhammad Arief Rubbyansyah\n'
+                '54419032\n'
+                '3IA01',
+                style: TextStyle(fontSize: 20),
+                textAlign: TextAlign.center,
+              ),
+            ]),
           ),
         ),
       ),
