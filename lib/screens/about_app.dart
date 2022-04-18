@@ -7,7 +7,7 @@ class AboutApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 40),
         child: Container(
           child: Center(
             child: Column(
@@ -36,10 +36,10 @@ class AboutApp extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(height: 80,),
+              SizedBox(height: 60,),
 
               Text(
-                'Aplikasi ini dikembangkan dalam rangka memenuhi tugas Penulisan Ilmiah Universitas'
+                'Aplikasi ini dikembangkan dalam rangka memenuhi tugas Penulisan Ilmiah Universitas '
                 'Gunadarma dan membantu promosi produk DYTA \n\n'
                 'Harapan kedepannya aplikasi ini berhasil mempromosikan produk yang dijual oleh DYTA\n\n'
                 

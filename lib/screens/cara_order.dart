@@ -44,7 +44,9 @@ class CaraOrder extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Tertarik dengan rujak serut segar buatan DYTA? tanya kami di Whatsapp untuk informasi lebih lanjut atau gunakan Tokopedia untuk pemesanan',
+                      'Tertarik dengan rujak serut segar buatan DYTA?'
+                      ' tanya kami di Whatsapp untuk informasi lebih lanjut'
+                      ' atau gunakan Tokopedia untuk pemesanan',
                       style: TextStyle(fontSize: 16),
                     ),
                     SizedBox(
@@ -78,6 +80,30 @@ class CaraOrder extends StatelessWidget {
                               child: Image.asset('assets/images/whatsapp.png')),
                         ),
                         Text("Hubungi kami"),
+                      ]),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      'Ingin mengetahui update dari kami? follow Instagram kami dengan menekan tombol dibawah ini',
+                      style: TextStyle(fontSize: 16),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    ElevatedButton(
+                      onPressed: () => link.openIG(),
+                      child: Row(children: [
+                        Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: SizedBox(
+                              height: 35,
+                              width: 35,
+                              child:
+                                  Image.asset('assets/images/insta.png')),
+                        ),
+                        Text("Instagram DYTA"),
                       ]),
                     ),
                   ],
