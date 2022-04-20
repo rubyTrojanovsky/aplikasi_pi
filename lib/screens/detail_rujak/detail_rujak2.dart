@@ -2,12 +2,11 @@ import 'package:aplikasi_pi/controllers/app_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class DetailRujak extends StatelessWidget {
-  const DetailRujak({ Key? key }) : super(key: key);
+class DetailRujak2 extends StatelessWidget {
+  const DetailRujak2({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    LinkFunctions link = Get.put(LinkFunctions());
     return Scaffold(
       body: Column(
         children: [
@@ -32,21 +31,16 @@ class DetailRujak extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Rujak Serut DYTA merupakan produk buatan rumah tangga yang diciptakan sejak tahun 2020'
-                      ' menggunakan buah-buahan yang segar dan bermanfaat bagi kesehatan dan bahan-bahan'
-                      ' lainnya yang membuat rasa rujak semakin nikmat',
+                      'Rujak Serut merupakan kuliner Industri Olahan rumah tangga dari DYTA Yasmin. Kuliner ini berawal dari berlimpahnya buah Nusantara yang ada di daerah Bogor. Rendahnya minat masyarakat dalam konsumsi buah secara segar membuat DYTA Yasmin mencoba menyajikan beragam Rasa dan jenis Buah menjadi kuliner sehat kepada semua kalangan dalam satu wadah kemasan.',
                       style: TextStyle(fontSize: 16),
                     ),
                     SizedBox(
                       height: 20,
                     ),
                     Text(
-                      'Rujak Serut DYTA merupakan produk buatan rumah tangga yang diciptakan sejak tahun 2020'
-                      ' menggunakan buah-buahan yang segar dan bermanfaat bagi kesehatan dan bahan-bahan'
-                      ' lainnya yang membuat rasa rujak semakin nikmat',
+                      'Buah yang memiliki kandungan Vitamin dan Serat yang diperlukan tubuh menjadikan Rujak Serut DYTA dapat menjadi solusi Kuliner Sehat bagi pencinta Buah Nusantara. Produk ini sudah ada sejak tahun 2017 dengan Izin Edar PIRT no 2143271010727-22 dan telah bersertifikasi Halal MUI no',
                       style: TextStyle(fontSize: 16),
                     ),
-
                   ],
                 ),
               ),

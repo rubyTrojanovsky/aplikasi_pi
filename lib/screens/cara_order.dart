@@ -7,7 +7,7 @@ class CaraOrder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    LinkFunctions link = Get.put(LinkFunctions());
+    AppController link = Get.put(AppController());
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
