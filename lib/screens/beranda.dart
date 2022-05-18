@@ -1,7 +1,6 @@
 import 'package:aplikasi_pi/screens/about_app.dart';
 import 'package:aplikasi_pi/screens/about_dyta.dart';
 import 'package:aplikasi_pi/screens/cara_order.dart';
-import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak.dart';
 import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

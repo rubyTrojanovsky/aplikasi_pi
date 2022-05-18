@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aplikasi_pi">
    <application
-        android:label="aplikasi_pi"
+        android:label="DYTA App"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

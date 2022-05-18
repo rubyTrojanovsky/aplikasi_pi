@@ -1,6 +1,4 @@
-import 'package:aplikasi_pi/controllers/app_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class AboutDyta extends StatelessWidget {
   const AboutDyta({Key? key}) : super(key: key);

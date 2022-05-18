@@ -1,6 +1,6 @@
 import 'package:aplikasi_pi/controllers/app_controller.dart';
-import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak.dart';
-import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak2.dart';
+import 'package:aplikasi_pi/screens/detail_rujak/components/detail_rujak.dart';
+import 'package:aplikasi_pi/screens/detail_rujak/components/detail_rujak2.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -32,15 +32,24 @@ class DetailRujakView extends StatelessWidget {
                     heroTag: "mundur",
                     onPressed: () {
                       controller.prevHalaman();
-
-                    }),
+                    },
+                    backgroundColor: Colors.white,
+                    child: const Icon(
+                      Icons.arrow_back_ios,
+                      color: Colors.black,)
+                    ),
                 Spacer(flex: 3),
                 controller.halaman.value == 2 ? SizedBox() :
                 FloatingActionButton(
                     heroTag: "maju",
                     onPressed: () {
                       controller.nextHalaman();
-                    }),
+                    },
+                    backgroundColor: Colors.white,
+                    child: const Icon(
+                      Icons.arrow_forward_ios,
+                      color: Colors.black,)
+                    ),
               ],
             ),
             ),
