@@ -13,7 +13,7 @@ class DetailRujak2 extends StatelessWidget {
                   height: 250,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/images/dytarujak2.jpg'),
+                            image: AssetImage('assets/images/buah-buahan.jpeg'),
                             fit: BoxFit.cover
                     ),
                   ),

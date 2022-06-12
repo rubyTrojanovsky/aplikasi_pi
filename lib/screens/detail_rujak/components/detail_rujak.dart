@@ -37,7 +37,7 @@ class DetailRujak extends StatelessWidget {
                         height: 20,
                       ),
                       Text(
-                        'Buah yang memiliki kandungan Vitamin dan Serat yang diperlukan tubuh menjadikan Rujak Serut DYTA dapat menjadi solusi Kuliner Sehat bagi pencinta Buah Nusantara. Produk ini sudah ada sejak tahun 2017 dengan Izin Edar PIRT no 2143271010727-22 dan telah bersertifikasi Halal MUI no',
+                        'Buah yang memiliki kandungan Vitamin dan Serat yang diperlukan tubuh menjadikan Rujak Serut DYTA dapat menjadi solusi Kuliner Sehat bagi pencinta Buah Nusantara. Produk ini sudah ada sejak tahun 2017 dengan Izin Edar PIRT no 2143271010727-22 dan telah bersertifikasi Halal MUI',
                         style: TextStyle(fontSize: 16),
                       ),
                       // Row(
