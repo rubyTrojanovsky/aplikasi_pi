@@ -20,7 +20,7 @@ class AboutApp extends StatelessWidget {
                     backgroundColor: Colors.orange,
                     radius: 63,
                     child: CircleAvatar(
-                      backgroundImage: AssetImage('assets/images/ruby.jpg'),
+                      backgroundImage: AssetImage('assets/images/ruby.png'),
                       radius: 60,
                     ),
                   ),
