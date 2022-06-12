@@ -44,9 +44,10 @@ class CaraOrder extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Tertarik dengan rujak serut segar buatan DYTA?'
-                      ' tanya kami di Whatsapp untuk informasi lebih lanjut'
-                      ' atau gunakan Tokopedia untuk pemesanan',
+                      'Produk kami telah dinikmati oleh ratusan konsumen dari skala kecil hingga besar dengan feedback positif \n\nTertarik dengan rujak serut segar buatan DYTA? '
+                      'tanya kami di Whatsapp untuk informasi lebih lanjut dan direkomendasikan untuk pemesanan dengan jumlah banyak.\n\n'
+                      'DYTA Rujak Serut juga hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah.'
+                      ' Pemesanan di Tokopedia akan mendapatkan gratis ongkir',
                       style: TextStyle(fontSize: 16),
                     ),
                     SizedBox(
@@ -54,7 +55,12 @@ class CaraOrder extends StatelessWidget {
                     ),
                     ElevatedButton(
                       onPressed: () => link.openTokped(),
-                      child: Row(children: [
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.orange[700],
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: SizedBox(
@@ -71,7 +77,12 @@ class CaraOrder extends StatelessWidget {
                     ),
                     ElevatedButton(
                       onPressed: () => link.openWA(),
-                      child: Row(children: [
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.orange[700],
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: SizedBox(
@@ -94,7 +105,12 @@ class CaraOrder extends StatelessWidget {
                     ),
                     ElevatedButton(
                       onPressed: () => link.openIG(),
-                      child: Row(children: [
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.orange[700],
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: SizedBox(
