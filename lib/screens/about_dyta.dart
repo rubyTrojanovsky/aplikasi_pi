@@ -42,7 +42,20 @@ class AboutDyta extends StatelessWidget {
 
                     SizedBox(height: 16),
 
-                    Text('DYTA merupakan produsen rumah tangga yang saat ini membuat produk jajanan berupa rujak serut',
+                    Text('Dyta Yasmin berdiri pada tahun 2017. Berawal dari keinginan menyalurkan buah Nusantara'
+                          ' yang banyak manfaat  dan mudah didapatkan tapi belum menjadi menu utama bagi masyarakat kita.'
+                          ' Buah Nusantara yang kaya nutrisi itu  dijadikan pangan olahan dalam kemasan agar meningkat masa'
+                          ' simpannya agar lebih banyak menjangkau konsumen yang dapat menikmatinya.\n\n'
+
+                          'Pangan Buah dalam kemasan ini berupa Rujak Serut yang terdiri'
+                          ' dari 7 Buah Nusantara yang bisa membantu meningkatkan konsumsi'
+                          ' Buah bagi masyarakat dengan cara kuliner sederhana yang dapat'
+                          ' meningkatkan pangsa pasar bagi petani di sisi lainnya.\n\n'
+
+                          'Pada akhirnya Dyta Yasmin akan menjadi sarana memasarkan produk lokal'
+                          ' bagi usaha UMKM kuliner lainnya agar dapat meningkatkan persaingan usaha rakyat'
+                          ' agar tumbuh dan berkembang sehingga dapat menjadi slogan Bangga Produk Lokal menjadi'
+                          ' lebih nyata lagi. Sehat warganya, sejahtera Petaninya.',
                     style: TextStyle(fontSize: 16),
                     ),
                   ],
