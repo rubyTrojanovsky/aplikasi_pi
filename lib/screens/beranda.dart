@@ -1,7 +1,8 @@
 import 'package:aplikasi_pi/screens/about_app.dart';
 import 'package:aplikasi_pi/screens/about_dyta.dart';
-import 'package:aplikasi_pi/screens/cara_order.dart';
+import 'package:aplikasi_pi/screens/informasi/components/cara_order.dart';
 import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak_view.dart';
+import 'package:aplikasi_pi/screens/informasi/informasi_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -159,7 +160,7 @@ class Beranda extends StatelessWidget {
 
                           GestureDetector(
                             onTap: () {
-                              Get.to(() => CaraOrder(),
+                              Get.to(() => InformasiView(),
                                   transition: Transition.rightToLeft,
                                   duration: Duration(milliseconds: 400));
                               print('tap');

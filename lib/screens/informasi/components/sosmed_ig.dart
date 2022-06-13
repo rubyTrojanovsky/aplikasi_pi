@@ -2,8 +2,8 @@ import 'package:aplikasi_pi/controllers/app_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class CaraOrder extends StatelessWidget {
-  const CaraOrder({Key? key}) : super(key: key);
+class InstagramPage extends StatelessWidget {
+  const InstagramPage({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -39,63 +39,10 @@ class CaraOrder extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Order',
+                      'Sosial Media',
                       style: TextStyle(fontSize: 32),
                     ),
                     SizedBox(height: 16),
-                    Text(
-                      'Produk kami telah dinikmati oleh ratusan konsumen dari skala kecil hingga besar dengan feedback positif \n\nTertarik dengan rujak serut segar buatan DYTA? '
-                      'tanya kami di Whatsapp untuk informasi lebih lanjut dan direkomendasikan untuk pemesanan dengan jumlah banyak.\n\n'
-                      'DYTA Rujak Serut juga hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah.'
-                      ' Pemesanan di Tokopedia akan mendapatkan gratis ongkir',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    ElevatedButton(
-                      onPressed: () => link.openTokped(),
-                      style: ElevatedButton.styleFrom(
-                        primary: Colors.orange[700],
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: SizedBox(
-                              height: 35,
-                              width: 35,
-                              child:
-                                  Image.asset('assets/images/tokopedia.png')),
-                        ),
-                        Text("Pesan Sekarang"),
-                      ]),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    ElevatedButton(
-                      onPressed: () => link.openWA(),
-                      style: ElevatedButton.styleFrom(
-                        primary: Colors.orange[700],
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: SizedBox(
-                              height: 35,
-                              width: 35,
-                              child: Image.asset('assets/images/whatsapp.png')),
-                        ),
-                        Text("Hubungi kami"),
-                      ]),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
                     Text(
                       'Ingin mengetahui update dari kami? follow Instagram kami dengan menekan tombol dibawah ini',
                       style: TextStyle(fontSize: 16),
