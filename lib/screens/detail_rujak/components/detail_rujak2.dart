@@ -48,7 +48,7 @@ class DetailRujak2 extends StatelessWidget {
                     //DAFTAR BUAH BUAHAN
                     //TIMUN
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),
@@ -100,7 +100,7 @@ class DetailRujak2 extends StatelessWidget {
 
                     //NANAS
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),
@@ -152,7 +152,7 @@ class DetailRujak2 extends StatelessWidget {
 
                     //KEDONDONG
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),
@@ -204,7 +204,7 @@ class DetailRujak2 extends StatelessWidget {
 
                     //UBI MERAH
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),
@@ -256,7 +256,7 @@ class DetailRujak2 extends StatelessWidget {
 
                     //MANGGA
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),
@@ -308,7 +308,7 @@ class DetailRujak2 extends StatelessWidget {
 
                     //BENGKOANG
                     Container(
-                      width: size.width * 0.875,
+                      width: size.width * 0.9,
                       decoration: BoxDecoration(
                         border: Border.all(color: Colors.black, width: 2),
                         borderRadius: BorderRadius.circular(20),

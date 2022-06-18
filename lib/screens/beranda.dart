@@ -85,7 +85,7 @@ class Beranda extends StatelessWidget {
                             },
                             child: Container(
                               height: 200,
-                              width: size.width * 0.875,
+                              width: size.width * 0.9,
                               decoration: BoxDecoration(
                                   border: Border.all(
                                       color: Colors.black, width: 2),
@@ -131,7 +131,7 @@ class Beranda extends StatelessWidget {
                             },
                             child: Container(
                               height: 70,
-                              width: size.width * 0.875,
+                              width: size.width * 0.9,
                               decoration: BoxDecoration(
                                 border:
                                     Border.all(color: Colors.black, width: 2),
@@ -167,7 +167,7 @@ class Beranda extends StatelessWidget {
                             },
                             child: Container(
                               height: 70,
-                              width: size.width * 0.875,
+                              width: size.width * 0.9,
                               decoration: BoxDecoration(
                                 border:
                                     Border.all(color: Colors.black, width: 2),
@@ -203,7 +203,7 @@ class Beranda extends StatelessWidget {
                             },
                             child: Container(
                               height: 70,
-                              width: size.width * 0.875,
+                              width: size.width * 0.9,
                               decoration: BoxDecoration(
                                 border:
                                     Border.all(color: Colors.black, width: 2),
