@@ -25,11 +25,11 @@ class InstagramPage extends StatelessWidget {
             // ),
 
             Container(
-              height: 250,
+              height: 420,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/dyta_logo.jpeg'),
-                    fit: BoxFit.cover),
+                    image: AssetImage('assets/images/igdyta.png'),
+                    fit: BoxFit.fill),
               ),
             ),
             Padding(
@@ -44,7 +44,8 @@ class InstagramPage extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Ingin mengetahui update dari kami? follow Instagram kami dengan menekan tombol dibawah ini',
+                      'Ingin mengetahui update dari kami atau ingin melihat testimoni dari para konsumen Rujak Serut DYTA?'
+                      '\n\nCek dan follow Instagram kami dengan menekan tombol dibawah ini',
                       style: TextStyle(fontSize: 16),
                     ),
                     SizedBox(

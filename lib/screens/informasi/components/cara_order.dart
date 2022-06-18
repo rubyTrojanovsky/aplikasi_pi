@@ -25,11 +25,11 @@ class CaraOrder extends StatelessWidget {
             // ),
 
             Container(
-              height: 250,
+              height: 420,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/dyta_logo.jpeg'),
-                    fit: BoxFit.cover),
+                    image: AssetImage('assets/images/tokpeddyta.png'),
+                    fit: BoxFit.fill),
               ),
             ),
             Padding(
@@ -39,15 +39,15 @@ class CaraOrder extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Order',
+                      'Order lewat Tokopedia',
                       style: TextStyle(fontSize: 32),
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Produk kami telah dinikmati oleh ratusan konsumen dari skala kecil hingga besar dengan feedback positif \n\nTertarik dengan rujak serut segar buatan DYTA? '
-                      'tanya kami di Whatsapp untuk informasi lebih lanjut dan direkomendasikan untuk pemesanan dengan jumlah banyak.\n\n'
-                      'DYTA Rujak Serut juga hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah.'
-                      ' Pemesanan di Tokopedia akan mendapatkan gratis ongkir',
+                      'Ingin menikmati Rujak Serut DYTA di rumah atau kantor dengan gratis ongkos kirim?'
+                      '\n\nKabar baik untuk anda!'
+                      '\n\nRujak Serut DYTA hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah. Rujak Serut DYTA ini telah dinikmati oleh ratusan konsumen dengan feedback positif.'
+                      '\n\nTekan tombol dibawah ini untuk masuk ke halaman produk pada aplikasi Tokopedia',
                       style: TextStyle(fontSize: 16),
                     ),
                     SizedBox(

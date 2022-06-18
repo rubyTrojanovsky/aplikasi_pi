@@ -25,11 +25,11 @@ class WhatsappPage extends StatelessWidget {
             // ),
 
             Container(
-              height: 250,
+              height: 420,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/dyta_logo.jpeg'),
-                    fit: BoxFit.cover),
+                    image: AssetImage('assets/images/rujakpublic1.jpeg'),
+                    fit: BoxFit.fill),
               ),
             ),
             Padding(
