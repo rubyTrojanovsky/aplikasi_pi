@@ -13,17 +13,6 @@ class InstagramPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // GestureDetector(
-            //   onTap: () => link.openMaps(),
-            //   child: Container(
-            //     height: 250,
-            //     decoration: BoxDecoration(
-            //         image: DecorationImage(
-            //             image: AssetImage('assets/images/mapDyta.jpg'),
-            //             fit: BoxFit.cover)),
-            //   ),
-            // ),
-
             Container(
               height: 420,
               decoration: BoxDecoration(
@@ -44,7 +33,7 @@ class InstagramPage extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Ingin mengetahui update dari kami atau ingin melihat testimoni dari para konsumen Rujak Serut DYTA?'
+                      'Ingin mengetahui update dari kami atau ingin melihat testimoni dari para konsumen DYTA Rujak Serut?'
                       '\n\nCek dan follow Instagram kami dengan menekan tombol dibawah ini',
                       style: TextStyle(fontSize: 16),
                     ),

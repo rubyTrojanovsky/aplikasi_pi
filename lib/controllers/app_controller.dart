@@ -20,11 +20,6 @@ class AppController extends GetxController {
     await launch(linkWA);
   }
 
-  openMaps() async {
-    var maps = "https://maps.app.goo.gl/ZJvSiLvEJdEy1vpt6";
-    await launch(maps);
-  }
-
   openIG() async {
     var ig = "https://www.instagram.com/rujakserutdyta/";
     await launch(ig);

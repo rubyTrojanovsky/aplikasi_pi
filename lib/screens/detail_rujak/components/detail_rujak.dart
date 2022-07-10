@@ -25,12 +25,12 @@ class DetailRujak extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Rujak Serut DYTA',
+                        'DYTA Rujak Serut',
                         style: TextStyle(fontSize: 32),
                       ),
                       SizedBox(height: 16),
                       Text(
-                        'Rujak Serut merupakan kuliner Industri Olahan rumah tangga dari DYTA Yasmin. Kuliner ini berawal dari berlimpahnya buah Nusantara yang ada di daerah Bogor. Rendahnya minat masyarakat dalam konsumsi buah secara segar membuat DYTA Yasmin mencoba menyajikan beragam Rasa dan jenis Buah menjadi kuliner sehat kepada semua kalangan dalam satu wadah kemasan.',
+                        'DYTA Rujak Serut merupakan kuliner Industri Olahan rumah tangga dari DYTA Yasmin. Kuliner ini berawal dari berlimpahnya buah Nusantara yang ada di daerah Bogor. Rendahnya minat masyarakat dalam konsumsi buah secara segar membuat DYTA Yasmin mencoba menyajikan beragam Rasa dan jenis Buah menjadi kuliner sehat kepada semua kalangan dalam satu wadah kemasan.',
                         style: TextStyle(fontSize: 16),
                       ),
                       SizedBox(

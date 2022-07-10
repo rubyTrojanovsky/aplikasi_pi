@@ -13,17 +13,6 @@ class WhatsappPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // GestureDetector(
-            //   onTap: () => link.openMaps(),
-            //   child: Container(
-            //     height: 250,
-            //     decoration: BoxDecoration(
-            //         image: DecorationImage(
-            //             image: AssetImage('assets/images/mapDyta.jpg'),
-            //             fit: BoxFit.cover)),
-            //   ),
-            // ),
-
             Container(
               height: 420,
               decoration: BoxDecoration(

@@ -13,17 +13,6 @@ class CaraOrder extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // GestureDetector(
-            //   onTap: () => link.openMaps(),
-            //   child: Container(
-            //     height: 250,
-            //     decoration: BoxDecoration(
-            //         image: DecorationImage(
-            //             image: AssetImage('assets/images/mapDyta.jpg'),
-            //             fit: BoxFit.cover)),
-            //   ),
-            // ),
-
             Container(
               height: 420,
               decoration: BoxDecoration(
@@ -44,9 +33,9 @@ class CaraOrder extends StatelessWidget {
                     ),
                     SizedBox(height: 16),
                     Text(
-                      'Ingin menikmati Rujak Serut DYTA di rumah atau kantor dengan gratis ongkos kirim?'
+                      'Ingin menikmati DYTA Rujak Serut di rumah atau kantor dengan gratis ongkos kirim?'
                       '\n\nKabar baik untuk anda!'
-                      '\n\nRujak Serut DYTA hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah. Rujak Serut DYTA ini telah dinikmati oleh ratusan konsumen dengan feedback positif.'
+                      '\n\nDYTA Rujak Serut hadir di Tokopedia dengan rating bintang 5 dan terjual lebih dari 50 buah. DYTA Rujak Serut ini telah dinikmati oleh ratusan konsumen dengan feedback positif.'
                       '\n\nTekan tombol dibawah ini untuk masuk ke halaman produk pada aplikasi Tokopedia',
                       style: TextStyle(fontSize: 16),
                     ),

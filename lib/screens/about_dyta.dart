@@ -9,18 +9,7 @@ class AboutDyta extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // GestureDetector(
-            //   onTap: () => link.openMaps(),
-            //   child: Container(
-            //     height: 250,
-            //     decoration: BoxDecoration(
-            //         image: DecorationImage(
-            //             image: AssetImage('assets/images/mapDyta.jpg'),
-            //             fit: BoxFit.cover)),
-            //   ),
-            // ),
-            
+          children: [            
             Container(
               height: 250,
                 decoration: BoxDecoration(
@@ -42,7 +31,7 @@ class AboutDyta extends StatelessWidget {
 
                     SizedBox(height: 16),
 
-                    Text('Dyta Yasmin berdiri pada tahun 2017. Berawal dari keinginan menyalurkan buah Nusantara'
+                    Text('DYTA Yasmin berdiri pada tahun 2017. Berawal dari keinginan menyalurkan buah Nusantara'
                           ' yang banyak manfaat  dan mudah didapatkan tapi belum menjadi menu utama bagi masyarakat kita.'
                           ' Buah Nusantara yang kaya nutrisi itu  dijadikan pangan olahan dalam kemasan agar meningkat masa'
                           ' simpannya agar lebih banyak menjangkau konsumen yang dapat menikmatinya.\n\n'
@@ -52,7 +41,7 @@ class AboutDyta extends StatelessWidget {
                           ' Buah bagi masyarakat dengan cara kuliner sederhana yang dapat'
                           ' meningkatkan pangsa pasar bagi petani di sisi lainnya.\n\n'
 
-                          'Pada akhirnya Dyta Yasmin akan menjadi sarana memasarkan produk lokal'
+                          'Pada akhirnya DYTA Yasmin akan menjadi sarana memasarkan produk lokal'
                           ' bagi usaha UMKM kuliner lainnya agar dapat meningkatkan persaingan usaha rakyat'
                           ' agar tumbuh dan berkembang sehingga dapat menjadi slogan Bangga Produk Lokal menjadi'
                           ' lebih nyata lagi. Sehat warganya, sejahtera Petaninya.',

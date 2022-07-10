@@ -1,6 +1,5 @@
 import 'package:aplikasi_pi/screens/about_app.dart';
 import 'package:aplikasi_pi/screens/about_dyta.dart';
-import 'package:aplikasi_pi/screens/informasi/components/cara_order.dart';
 import 'package:aplikasi_pi/screens/detail_rujak/detail_rujak_view.dart';
 import 'package:aplikasi_pi/screens/informasi/informasi_view.dart';
 import 'package:flutter/material.dart';
@@ -43,7 +42,7 @@ class Beranda extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.fromLTRB(16, 50, 16, 16),
               child: Text(
-                "Aplikasi Produk Dyta",
+                "Aplikasi Produk DYTA",
                 style: TextStyle(
               fontSize: 30,
               color: Colors.white,
@@ -77,7 +76,6 @@ class Beranda extends StatelessWidget {
                         children: [
                           GestureDetector(
                             onTap: () {
-                              // ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('halaman detail produk rujak')));
                               Get.to(() => DetailRujakView(),
                                   transition: Transition.rightToLeft,
                                   duration: Duration(milliseconds: 400));
@@ -217,7 +215,7 @@ class Beranda extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      'Tentang App',
+                                      'Tentang Aplikasi',
                                       style: TextStyle(fontSize: 18),
                                     )
                                   ],
@@ -225,8 +223,6 @@ class Beranda extends StatelessWidget {
                               ),
                             ),
                           ),
-
-                          
                         ],
                       ),
                     ),
